@@ -14,6 +14,7 @@
     "posthtml-include": "^2.0.1"
   },
   "dependencies": {
-    "@parcel/transformer-posthtml": "^2.12.0"
+    "@parcel/transformer-posthtml": "^2.12.0",
+    "@parcel/watcher": "^2.4.1"
   }
 }
