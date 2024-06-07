@@ -1,0 +1,42 @@
+@import url(../colors.css);
+
+a {
+  text-decoration: none;
+  color: rgb(14, 47, 234);
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button {
+  font-size: 16px;
+  background: var(--primary-color);
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: rgb(17, 44, 199);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondary-button {
+  font-size: 16px;
+  color: rgb(14, 47, 234);
+  padding: 16px 32px;
+  border: rgb(14, 47, 234);
+  border-radius: 8px;
+}
+
+.secondary-button:hover {
+  background: rgb(14, 47, 234, 0.1);
+  cursor: pointer;
+}
