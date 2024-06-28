@@ -2,16 +2,47 @@
 <html>
   <head>
     <title>My Parcel Project</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./colors.css" />
+    <link rel="stylesheet" href="./typography.css" />
     <link rel="stylesheet" href="./components/button.css" />
     <link rel="stylesheet" href="./components/login-form.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <meta name="view-transition" content="same-origin" />
   </head>
   <body>
     <header></header>
-    <main id="app">
-      <include src="./components/login-form.html"></include>
+    <main class="container">
+      <section class="hero"></section>
+      <section class="login-wrapper">
+        <div class="login-form">
+          <div class="header">
+            <h1>Inicia Sesión</h1>
+          </div>
+          <div class="social-buttons">
+            <button class="button__secondary" href="./dashboard.html">
+              Google
+            </button>
+            <button class="button__secondary" href="./dashboard.html">
+              Apple
+            </button>
+          </div>
+          <div class="form">
+            <span>o</span>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-control">
+              <label for="email">Password</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <a class="button" href="./dashboard.html"> Iniciar sesión </a>
+            <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

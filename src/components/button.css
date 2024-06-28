@@ -11,6 +11,7 @@ a:hover {
 }
 
 .button {
+  cursor: pointer;
   font-size: 16px;
   background: var(--primary-color);
   color: white;
@@ -20,6 +21,23 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-decoration: none;
+}
+.button__secondary {
+  cursor: pointer;
+  font-size: 16px;
+  background: var(--default-color);
+  color: var(--text-primary);
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--primary-color);
+    color: var(--default-color);
+  }
 }
 
 .button:hover {

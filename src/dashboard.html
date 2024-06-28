@@ -2,16 +2,171 @@
 <html>
   <head>
     <title>Dashboard</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./colors.css" />
+    <link rel="stylesheet" href="./typography.css" />
     <link rel="stylesheet" href="./components/button.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css" />
   </head>
-  <body>
-    <header>
-      <h1>Dashboard</h1>
-    </header>
-    <main id="app">
-      <p>Welcome to the dashboard.</p>
-      <a class="button" href="./index.html">Logout</a>
-    </main>
+  <body class="dashboard-container">
+    <nav class="sidebar">
+      <div class="sidebar-top">
+        <div class="logo">
+          <i class="bx bx-rocket bx-sm"></i>
+          <h1>Appy</h1>
+        </div>
+        <ul>
+          <li>
+            <i class="bx bx-tachometer bx-sm"></i>
+            <a href="#">Dashboard</a>
+          </li>
+          <li>
+            <i class="bx bx-group bx-sm"></i>
+            <a href="#">Clientes</a>
+          </li>
+          <li>
+            <i class="bx bx-briefcase bx-sm"></i>
+            <a href="#">Proyectos</a>
+          </li>
+          <li>
+            <i class="bx bx-receipt bx-sm"></i>
+            <a href="#">Facturas</a>
+          </li>
+          <li>
+            <i class="bx bx-box bx-sm"></i>
+            <a href="#">Productos</a>
+          </li>
+          <li>
+            <i class="bx bx-chat bx-sm"></i>
+            <a href="#">Mensajes</a>
+          </li>
+        </ul>
+      </div>
+      <ul>
+        <li>
+          <i class="bx bx-cog bx-sm"></i>
+          <a href="#">Configuración</a>
+        </li>
+        <li>
+          <i class="bx bx-log-out bx-sm"></i>
+          <a href="#">Cerrar Sesión</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="dashboard-content-wrapper">
+      <header></header>
+      <main class="dashboard-content">
+        <header class="page-header">
+          <h1>Dashboard</h1>
+          <p>Lorem ipsum dolo sit amet</p>
+        </header>
+        <div class="dashboard-cards">
+          <section class="stats-grid">
+            <div class="card">
+              <p>Icono</p>
+              <h5>Ingresos</h5>
+              <h2>$ 0.00</h2>
+              <div>
+                <span> Tag </span>
+                <span> Caption </span>
+              </div>
+            </div>
+            <div class="card">
+              <p>Icono</p>
+              <h5>Ventas Totales</h5>
+              <h2>$ 0.00</h2>
+              <div>
+                <span> Tag </span>
+                <span> Caption </span>
+              </div>
+            </div>
+            <div class="card">
+              <p>Icono</p>
+              <h5>Nuevos Clientes</h5>
+              <h2>$ 0.00</h2>
+              <div>
+                <span> Tag </span>
+                <span> Caption </span>
+              </div>
+            </div>
+          </section>
+
+          <section class="sales-grid">
+            <div class="card">
+              <h2>Ventas</h2>
+              <img src="./img/chart.png" alt="grafico de ventas" />
+            </div>
+            <div class="card">
+              <h2>Más Vendidos</h2>
+              <ul>
+                <li>
+                  <div class="product-info-wrapper">
+                    <span>Icono</span>
+                    <div class="product-title">
+                      <span>Producto 1</span>
+                      <span>128 ventas</span>
+                    </div>
+                  </div>
+                  <span>$1,239.00</span>
+                </li>
+                <li>
+                  <div class="product-info-wrapper">
+                    <span>Icono</span>
+                    <div class="product-title">
+                      <span>Producto 1</span>
+                      <span>128 ventas</span>
+                    </div>
+                  </div>
+                  <span>$1,239.00</span>
+                </li>
+                <li>
+                  <div class="product-info-wrapper">
+                    <span>Icono</span>
+                    <div class="product-title">
+                      <span>Producto 1</span>
+                      <span>128 ventas</span>
+                    </div>
+                  </div>
+                  <span>$1,239.00</span>
+                </li>
+                <li>
+                  <div class="product-info-wrapper">
+                    <span>Icono</span>
+                    <div class="product-title">
+                      <span>Producto 1</span>
+                      <span>128 ventas</span>
+                    </div>
+                  </div>
+                  <span>$1,239.00</span>
+                </li>
+                <li>
+                  <div class="product-info-wrapper">
+                    <span>Icono</span>
+                    <div class="product-title">
+                      <span>Producto 1</span>
+                      <span>128 ventas</span>
+                    </div>
+                  </div>
+                  <span>$1,239.00</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="card">
+              <h2>Últimas Ventas</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                nec purus ac libero ultrices.
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

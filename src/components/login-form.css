@@ -7,11 +7,10 @@
 }
 
 .login-form {
-  max-width: 400px;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 32px;
-  border: 1px solid #ccc;
-  border-radius: 16px;
 }
 
 .form {
