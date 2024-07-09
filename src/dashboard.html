@@ -16,8 +16,7 @@
     <nav class="sidebar">
       <div class="sidebar-top">
         <div class="logo">
-          <i class="bx bx-rocket bx-sm"></i>
-          <h1>Appy</h1>
+          <img src="./img/logo.png" alt="Logo" width="95" />
         </div>
         <ul>
           <li>
@@ -26,7 +25,7 @@
           </li>
           <li>
             <i class="bx bx-group bx-sm"></i>
-            <a href="#">Clientes</a>
+            <a href="clients.html"> Clientes </a>
           </li>
           <li>
             <i class="bx bx-briefcase bx-sm"></i>
@@ -67,30 +66,36 @@
         <div class="dashboard-cards">
           <section class="stats-grid">
             <div class="card">
-              <p>Icono</p>
+              <div class="card-icon">
+                <i class="bx bx-money-withdraw bx-sm"></i>
+              </div>
               <h5>Ingresos</h5>
               <h2>$ 0.00</h2>
               <div>
-                <span> Tag </span>
-                <span> Caption </span>
+                <span class="tag-positive">+0.32%</span>
+                <span class="caption">Mes pasado</span>
               </div>
             </div>
             <div class="card">
-              <p>Icono</p>
+              <div class="card-icon">
+                <i class="bx bx-wallet bx-sm"></i>
+              </div>
               <h5>Ventas Totales</h5>
               <h2>$ 0.00</h2>
               <div>
-                <span> Tag </span>
-                <span> Caption </span>
+                <span class="tag-positive">+4.3%</span>
+                <span class="caption">Mes pasado</span>
               </div>
             </div>
             <div class="card">
-              <p>Icono</p>
+              <div class="card-icon">
+                <i class="bx bx-user bx-sm"></i>
+              </div>
               <h5>Nuevos Clientes</h5>
               <h2>$ 0.00</h2>
               <div>
-                <span> Tag </span>
-                <span> Caption </span>
+                <span class="tag-negative">-0.4%</span>
+                <span class="caption">Mes pasado</span>
               </div>
             </div>
           </section>
@@ -105,53 +110,53 @@
               <ul>
                 <li>
                   <div class="product-info-wrapper">
-                    <span>Icono</span>
+                    <img src="./img/Icon.png" />
                     <div class="product-title">
-                      <span>Producto 1</span>
-                      <span>128 ventas</span>
+                      <span class="product-name">Producto 1</span>
+                      <span class="sales">128 ventas</span>
                     </div>
                   </div>
-                  <span>$1,239.00</span>
+                  <span class="price">$1,239.00</span>
                 </li>
                 <li>
                   <div class="product-info-wrapper">
-                    <span>Icono</span>
+                    <img src="./img/Icon-1.png" />
                     <div class="product-title">
-                      <span>Producto 1</span>
-                      <span>128 ventas</span>
+                      <span class="product-name">Producto 1</span>
+                      <span class="sales">128 ventas</span>
                     </div>
                   </div>
-                  <span>$1,239.00</span>
+                  <span class="price">$1,239.00</span>
                 </li>
                 <li>
                   <div class="product-info-wrapper">
-                    <span>Icono</span>
+                    <img src="./img/Icon-2.png" />
                     <div class="product-title">
-                      <span>Producto 1</span>
-                      <span>128 ventas</span>
+                      <span class="product-name">Producto 1</span>
+                      <span class="sales">128 ventas</span>
                     </div>
                   </div>
-                  <span>$1,239.00</span>
+                  <span class="price">$1,239.00</span>
                 </li>
                 <li>
                   <div class="product-info-wrapper">
-                    <span>Icono</span>
+                    <img src="./img/Icon-3.png" />
                     <div class="product-title">
-                      <span>Producto 1</span>
-                      <span>128 ventas</span>
+                      <span class="product-name">Producto 1</span>
+                      <span class="sales">128 ventas</span>
                     </div>
                   </div>
-                  <span>$1,239.00</span>
+                  <span class="price">$1,239.00</span>
                 </li>
                 <li>
                   <div class="product-info-wrapper">
-                    <span>Icono</span>
+                    <img src="./img/Icon-3.png" />
                     <div class="product-title">
-                      <span>Producto 1</span>
-                      <span>128 ventas</span>
+                      <span class="product-name">Producto 1</span>
+                      <span class="sales">128 ventas</span>
                     </div>
                   </div>
-                  <span>$1,239.00</span>
+                  <span class="price">$1,239.00</span>
                 </li>
               </ul>
             </div>
@@ -163,6 +168,74 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 nec purus ac libero ultrices.
               </p>
+
+              <div class="table-container">
+                <div class="table-header">
+                  <div class="table-cell">#</div>
+                  <div class="table-cell">Producto</div>
+                  <div class="table-cell">ID</div>
+                  <div class="table-cell">Fecha</div>
+                  <div class="table-cell">Pago</div>
+                  <div class="table-cell">Cliente</div>
+                  <div class="table-cell">Importe</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">1</div>
+                  <div class="table-cell">Producto 1</div>
+                  <div class="table-cell">#PR-28473</div>
+                  <div class="table-cell">05/12/2024</div>
+                  <div class="table-cell">TDC **23</div>
+                  <div class="table-cell">Marco Sanchez</div>
+                  <div class="table-cell">$129.00</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">2</div>
+                  <div class="table-cell">Producto 1</div>
+                  <div class="table-cell">#PR-28473</div>
+                  <div class="table-cell">05/12/2024</div>
+                  <div class="table-cell">TDC **23</div>
+                  <div class="table-cell">Arturo Ramos</div>
+                  <div class="table-cell">$129.00</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">3</div>
+                  <div class="table-cell">Producto 1</div>
+                  <div class="table-cell">#PR-28473</div>
+                  <div class="table-cell">05/12/2024</div>
+                  <div class="table-cell">TDC **23</div>
+                  <div class="table-cell">Cristina Alvarez</div>
+                  <div class="table-cell">$129.00</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">4</div>
+                  <div class="table-cell">Producto 3</div>
+                  <div class="table-cell">#PR-28473</div>
+                  <div class="table-cell">05/12/2024</div>
+                  <div class="table-cell">TDC **23</div>
+                  <div class="table-cell">Ivonne Prado</div>
+                  <div class="table-cell">$129.00</div>
+                </div>
+                <div class="table-row">
+                  <div class="table-cell">5</div>
+                  <div class="table-cell">Producto 3</div>
+                  <div class="table-cell">#PR-28473</div>
+                  <div class="table-cell">05/12/2024</div>
+                  <div class="table-cell">TDC **23</div>
+                  <div class="table-cell">Alberto Sosa</div>
+                  <div class="table-cell">$129.00</div>
+                </div>
+                <!-- <div class="table-footer">
+                  <div>5/10</div>
+                  <ul class="pagination">
+                    <li><a href="#">&#60;</a></li>
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">&#62;</a></li>
+                  </ul>
+                </div> -->
+              </div>
             </div>
           </section>
         </div>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clientes</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./colors.css" />
+    <link rel="stylesheet" href="./typography.css" />
+    <link rel="stylesheet" href="./components/button.css" />
+    <link rel="stylesheet" href="./styles/clients.css" />
+  </head>
+  <body class="dashboard-container">
+    <nav class="sidebar">
+      <div class="sidebar-top">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Logo" width="95" />
+        </div>
+        <ul>
+          <li>
+            <i class="bx bx-tachometer bx-sm"></i>
+            <a href="./dashboard.html">Dashboard</a>
+          </li>
+          <li>
+            <i class="bx bx-group bx-sm"></i>
+            <a href="#">Clientes</a>
+          </li>
+          <li>
+            <i class="bx bx-briefcase bx-sm"></i>
+            <a href="#">Proyectos</a>
+          </li>
+          <li>
+            <i class="bx bx-receipt bx-sm"></i>
+            <a href="#">Facturas</a>
+          </li>
+          <li>
+            <i class="bx bx-box bx-sm"></i>
+            <a href="#">Productos</a>
+          </li>
+          <li>
+            <i class="bx bx-chat bx-sm"></i>
+            <a href="#">Mensajes</a>
+          </li>
+        </ul>
+      </div>
+      <ul>
+        <li>
+          <i class="bx bx-cog bx-sm"></i>
+          <a href="#">Configuración</a>
+        </li>
+        <li>
+          <i class="bx bx-log-out bx-sm"></i>
+          <a href="#">Cerrar Sesión</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="dashboard-content-wrapper">
+      <header></header>
+      <main class="dashboard-content">
+        <header class="page-header">
+          <h1>Clientes</h1>
+          <p>Lorem ipsum dolo sit amet</p>
+        </header>
+        <div class="card">
+          <div class="table-container">
+            <div class="table-header">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">Nombre</div>
+              <div class="table-cell">Email</div>
+              <div class="table-cell">Estado</div>
+              <div class="table-cell">Registro</div>
+              <div class="table-cell">Ultima Visita</div>
+              <div class="table-cell">Acciones</div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Jerome Bell</strong>
+                </div>
+              </div>
+              <div class="table-cell">msanchez@gmail.com</div>
+              <div class="table-cell status">
+                <span class="active">Activo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Albert Flores</strong>
+                </div>
+              </div>
+              <div class="table-cell">nevaeh.simmons@example.com</div>
+              <div class="table-cell status">
+                <span class="inactive">Inactivo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Arturo Ramos</strong>
+                </div>
+              </div>
+              <div class="table-cell">georgia.young@example.com</div>
+              <div class="table-cell status">
+                <span class="inactive">Inactivo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Cristian Sanchez</strong>
+                </div>
+              </div>
+              <div class="table-cell">curtis.weaver@example.com</div>
+              <div class="table-cell status">
+                <span class="active">Activo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Cristina Alvarez</strong>
+                </div>
+              </div>
+              <div class="table-cell">michael.mitc@example.com</div>
+              <div class="table-cell status">
+                <span class="inactive">Inactivo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Alberto Sosa</strong>
+                </div>
+              </div>
+              <div class="table-cell">bill.sanders@example.com</div>
+              <div class="table-cell status">
+                <span class="active">Activo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Eduardo B.</strong>
+                </div>
+              </div>
+              <div class="table-cell">willie.jennings@example.com</div>
+              <div class="table-cell status">
+                <span class="active">Activo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-row">
+              <div class="table-cell"><input type="checkbox" /></div>
+              <div class="table-cell">
+                <div class="username">
+                  <img
+                    src="https://ui-avatars.com/api/?name=John+Doe"
+                    alt="User"
+                  /><strong>Ivonne Prado</strong>
+                </div>
+              </div>
+              <div class="table-cell">felicia.reid@example.com</div>
+              <div class="table-cell status">
+                <span class="active">Activo</span>
+              </div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">05/12/2023</div>
+              <div class="table-cell">
+                <button>🗑️</button><button>✏️</button>
+              </div>
+            </div>
+            <div class="table-footer">
+              <div>Showing 8 items per page</div>
+              <ul class="pagination">
+                <li><a href="#">&#60;</a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">&#62;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

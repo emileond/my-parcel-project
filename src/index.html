@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>My Parcel Project</title>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./colors.css" />
     <link rel="stylesheet" href="./typography.css" />
@@ -16,20 +19,21 @@
     <main class="container">
       <section class="hero"></section>
       <section class="login-wrapper">
+        <img class="logo" src="./img/logo.png" alt="Logo" width="120" />
         <div class="login-form">
           <div class="header">
             <h1>Inicia Sesión</h1>
           </div>
           <div class="social-buttons">
             <button class="button__secondary" href="./dashboard.html">
-              Google
+              <i class="bx bxl-google bx-sm"></i>
             </button>
             <button class="button__secondary" href="./dashboard.html">
-              Apple
+              <i class="bx bxl-apple bx-sm"></i>
             </button>
           </div>
           <div class="form">
-            <span>o</span>
+            <span class="form-legend">Inicia con tu correo</span>
             <div class="form-control">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" />

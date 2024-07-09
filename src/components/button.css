@@ -23,16 +23,20 @@ a:hover {
   text-decoration: none;
 }
 .button__secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   font-size: 16px;
   background: var(--default-color);
-  color: var(--text-primary);
-  padding: 16px 32px;
+  color: var(--primary-color);
+  padding: 12px 32px;
   border: none;
   border-radius: 8px;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
+  transition: background 0.25s, color 0.25s;
 
   &:hover {
     background: var(--primary-color);

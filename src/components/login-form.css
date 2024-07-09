@@ -1,3 +1,12 @@
+@import url(../colors.css);
+
+.logo {
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -8,7 +17,7 @@
 
 .login-form {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 32px;
 }
@@ -21,6 +30,13 @@
   p {
     text-align: center;
   }
+}
+
+.form-legend {
+  font-size: 14px;
+  padding: 16px 0;
+  text-align: center;
+  color: var(--text-secondary);
 }
 
 .form-control {
